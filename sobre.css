@@ -1,0 +1,44 @@
+header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px #555, 4px 4px 4px #555, 6px 6px 6px #555;
+}
+
+/* Estilos del encabezado */
+header {
+    background-image: url('img/Encabezado.png'); /* Ruta a tu imagen de encabezado */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Otros estilos específicos para la página "Sobre nosotros" */
+/* Puedes agregar aquí estilos adicionales específicos para esta página si lo necesitas */
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.descripcion {
+    max-width: 1'0%; /* Ajusta el ancho máximo según sea necesario */
+}
+nav ul li a:hover,
+nav ul li a:focus {
+    color: yellow; /* Cambia el color a amarillo */
+    text-shadow: 0 0 10px yellow; /* Agrega un efecto de sombra */
+    transition: color 0.3s ease, text-shadow 0.3s ease; /* Agrega una transición suave */
+}

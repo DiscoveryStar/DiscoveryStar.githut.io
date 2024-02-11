@@ -1,0 +1,78 @@
+/* Estilos generales */
+header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px #555, 4px 4px 4px #555, 6px 6px 6px #555;
+}
+
+header {
+    background-image: url('img/Encabezado.png'); /* Ruta a la imagen de tus animales */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.tema {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tema article {
+    margin: 20px;
+    text-align: center;
+}
+
+.tema h2 {
+    margin-bottom: 10px;
+}
+
+.tema img {
+    width: 300px;
+    height: auto;
+    border: 1px solid #ccc; /* Bordes opcionales para las imágenes */
+}
+
+.temas {
+    text-align: center;
+}
+
+footer {
+    background-color: transparent; /* Establece el fondo como transparente */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    background-image: url('img/Copiright.png'); /* Ruta a la imagen PNG transparente */
+    background-size: contain; /* Ajusta el tamaño de la imagen para que quepa dentro del elemento */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen dentro del elemento */
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    color: yellow; /* Cambia el color a amarillo */
+    text-shadow: 0 0 10px yellow; /* Agrega un efecto de sombra */
+    transition: color 0.3s ease, text-shadow 0.3s ease; /* Agrega una transición suave */
+}
